@@ -1,0 +1,19 @@
+.link a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.link {
+    margin-right: 20px;
+}
+
+.quiz-name {
+    color: blueviolet;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    box-shadow: 5px 10px white;
+}
