@@ -17,7 +17,7 @@ const Questions = ({ id, question }) => {
         }
     }
     const handleAddToShowAnswer = () => {
-        alert(correctAnswer)
+        toast(correctAnswer)
     }
 
 

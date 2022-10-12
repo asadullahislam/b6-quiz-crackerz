@@ -41,7 +41,7 @@ const Blog = () => {
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
-                    <Accordion.Header>how does work         useRef hook?</Accordion.Header>
+                    <Accordion.Header>how does work  useRef hook?</Accordion.Header>
                     <Accordion.Body>
                         <p>The useRef Hook allows you to persist values between renders. <br />
 

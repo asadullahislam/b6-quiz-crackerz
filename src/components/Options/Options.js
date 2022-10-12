@@ -1,4 +1,5 @@
 import React from 'react';
+import { ToastContainer } from 'react-bootstrap';
 import './Options.css'
 
 
@@ -9,6 +10,7 @@ const Options = ({ option, handleAddTocheck }) => {
 
             <button onClick={() => handleAddTocheck(option)} className='buttons '>
                 {option}</button>
+            <ToastContainer></ToastContainer>
 
         </div>
     );
