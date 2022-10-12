@@ -6,6 +6,10 @@ import './Home.css'
 const Home = () => {
     const topics = useLoaderData();
 
+    const handleAddToStart = () => {
+        console.log()
+    }
+
     return (
         <div className="home-container">
             <div className='topics-item'>

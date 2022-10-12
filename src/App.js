@@ -7,6 +7,7 @@ import Home from './components/Home/Home';
 
 import Statistics from './components/Statistics/Statistics';
 import Blog from './components/Blog/Blog';
+import Quiz from './components/Quiz/Quiz';
 
 
 function App() {
@@ -30,6 +31,11 @@ function App() {
           path: '/blog',
           element: <Blog></Blog>
         },
+        {
+          path: '/quiz',
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz/1'),
+          element: <Quiz></Quiz>
+        }
 
       ]
     }
