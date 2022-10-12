@@ -1,3 +1,14 @@
+# project Name - QUIZ-TIME
+# Live Site Link 
+Live Site Link [https://quiz-times.netlify.app]
+#Feature:
+1.Select Topics 
+2.Showing Correct answer
+3.Check Correct and Incorrect Option
+4.Showing Toast 
+5.Responsive Design
+6.Showing Chart 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +79,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
