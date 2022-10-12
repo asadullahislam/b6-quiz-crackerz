@@ -11,7 +11,7 @@ const Statistics = () => {
     return (
         <div className='container'>
             <div>
-                <h1 className='text-primary '>Total Number of Quizes</h1>
+                <h1 className='text-primary '> Statistics  Number of Quizes</h1>
             </div>
             <div className=''>
                 <ResponsiveContainer width={500} height={500}>
