@@ -8,11 +8,18 @@ const Questions = ({ id, question }) => {
             <div >
                 <h3>{question.question}</h3>
             </div>
-            <div className='options-container'>
-                {
-                    question.options.map(option => <Options
-                        option={option}></Options>)
-                }
+
+            <div>
+                <div className='options-container'>
+
+                    {
+                        question.options.map(option => <Options
+                            option={option}></Options>)
+                    }
+                </div>
+                <div>
+
+                </div>
             </div>
 
         </div>
