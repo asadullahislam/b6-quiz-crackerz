@@ -1,4 +1,5 @@
 import React from 'react';
+import Options from '../Options/Options';
 import './Questions.css'
 
 const Questions = ({ id, question }) => {
@@ -7,8 +8,11 @@ const Questions = ({ id, question }) => {
             <div >
                 <h3>{question.question}</h3>
             </div>
-            <div>
-
+            <div className='options-container'>
+                {
+                    question.options.map(option => <Options
+                        option={option}></Options>)
+                }
             </div>
 
         </div>

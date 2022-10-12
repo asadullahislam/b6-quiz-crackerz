@@ -1,0 +1,11 @@
+.btn-container {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.buttons {
+    height: 100px;
+    width: 300px;
+    border-radius: 5px;
+}
