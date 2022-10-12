@@ -11,3 +11,18 @@
     grid-template-columns: repeat(2, 1fr);
 
 }
+
+.hero-icon {
+    height: 40px;
+    width: 40px;
+    color: blue;
+}
+
+.details-option {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-button {
+    border: none;
+}

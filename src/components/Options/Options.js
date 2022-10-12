@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Options = ({ option }) => {
 
     const diffToast = () => {
-        toast("Congratulation!!! Activity Completed")
+        toast(" Completed")
     }
     return (
         <div className='btn-container'>
