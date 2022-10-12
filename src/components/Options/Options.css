@@ -4,6 +4,10 @@
     border-radius: 5px;
 }
 
+.buttons:hover {
+    background-color: blueviolet;
+}
+
 .buttons {
     height: 100px;
     width: 300px;

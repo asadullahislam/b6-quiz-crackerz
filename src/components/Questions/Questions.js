@@ -2,8 +2,25 @@ import React from 'react';
 import Options from '../Options/Options';
 import './Questions.css'
 import { EyeIcon } from '@heroicons/react/24/solid'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Questions = ({ id, question }) => {
+    const { correctAnswer } = question;
+    console.log(correctAnswer)
+    const handleAddToCheck = (option) => {
+        if (correctAnswer === option) {
+            toast('correct')
+        }
+        else {
+            toast('incorrect')
+        }
+    }
+    const handleAddToShowAnswer = () => {
+        alert(correctAnswer)
+    }
+
+
     return (
         <div className='questions-container'>
             <div >
@@ -15,17 +32,22 @@ const Questions = ({ id, question }) => {
 
                     {
                         question.options.map(option => <Options
-                            option={option}></Options>)
+                            option={option}
+                            handleAddTocheck={handleAddToCheck}
+
+                        ></Options>)
                     }
                 </div>
                 <div>
-                    <button className='hero-button'>
+                    <button onClick={() => handleAddToShowAnswer()} className='hero-button'>
                         <EyeIcon className="hero-icon" />
                     </button>
+                    <ToastContainer></ToastContainer>
+
                 </div>
             </div>
 
-        </div>
+        </div >
     );
 };
 
