@@ -10,7 +10,7 @@
 
 .buttons {
     height: 100px;
-    width: 300px;
+    width: auto;
     border-radius: 5px;
 }
 
