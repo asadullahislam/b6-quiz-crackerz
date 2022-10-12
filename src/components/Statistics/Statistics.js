@@ -8,7 +8,6 @@ import {
 
 const Statistics = () => {
     const data = useLoaderData().data;
-    console.log(data)
     return (
         <div className='container'>
             <div>
