@@ -12,6 +12,9 @@ const Home = () => {
 
     return (
         <div className="home-container">
+            <div>
+                <img className='img-container' src="/images/newstime.jpg" alt="" />
+            </div>
             <div className='topics-item'>
 
                 {
