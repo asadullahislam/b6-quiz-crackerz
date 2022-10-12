@@ -1,12 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from './components/Layouts/Main';
 
 import Home from './components/Home/Home';
-import Topics from './components/Topics/Topics';
+
 import Statistics from './components/Statistics/Statistics';
 import Blog from './components/Blog/Blog';
+import Contents from './components/Contents/Contents';
 
 function App() {
   const router = createBrowserRouter([
@@ -16,14 +17,16 @@ function App() {
       children: [
         {
           path: '/',
+          loader: () => fetch(' https://openapi.programming-hero.com/api/quiz'),
           element: <Home></Home>,
         },
         {
-          path: '/topics',
-          element: <Topics></Topics>
+          path: '/contents',
+          element: <Contents></Contents>
         },
         {
           path: '/statistics',
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
           element: <Statistics></Statistics>
         },
         {

@@ -1,0 +1,7 @@
+.topics-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 40px;
+    padding-top: 40px;
+    width: 100%;
+}

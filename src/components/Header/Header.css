@@ -11,7 +11,7 @@
     color: blueviolet;
 }
 
-.nav-item {
+.header-container {
     display: flex;
     justify-content: space-between;
     background-color: whitesmoke;

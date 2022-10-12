@@ -4,13 +4,13 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <nav className='nav-item'>
+        <nav className=' header-container'>
             <div className='quiz-name'>
                 <h3>QUIZ TIME</h3>
             </div>
             <div className='link'>
                 <Link to="/">Home</Link>
-                <Link to="/topics">Topics</Link>
+                <Link to="/contents">Contents</Link>
                 <Link to="/statistics">Statistics</Link>
                 <Link to="/blog">Blog</Link>
             </div>

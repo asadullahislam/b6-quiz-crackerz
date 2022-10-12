@@ -1,11 +1,25 @@
 import React from 'react';
 import './Topics.css';
 
-const Topics = () => {
+import { Button } from 'react-bootstrap';
+
+import Card from 'react-bootstrap/Card';
+
+const Topics = ({ topic }) => {
+
+    const { logo, name } = topic;
     return (
-        <div>
-            <h1>This is topics section</h1>
+        <div className='container'>
+            <Card style={{ width: '18rem' }}>
+                <Card.Img className='color' variant="top" src={logo} />
+                <Card.Body className='d-flex topics-name'>
+                    <h6>{name}</h6>
+                    <Button className='button' variant="primary">Practice Start</Button>
+                </Card.Body>
+            </Card>
         </div>
+
+
     );
 };
 
