@@ -4,10 +4,15 @@ Live Site Link [https://quiz-times.netlify.app](https://quiz-times.netlify.app)
 
 #Feature:
 1.Select Topics 
+
 2.Showing Correct answer
+
 3.Check Correct and Incorrect Option
+
 4.Showing Toast 
+
 5.Responsive Design
+
 6.Showing graph Chart 
 
 # Getting Started with Create React App
